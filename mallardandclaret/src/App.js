@@ -1,20 +1,23 @@
 import './App.css';
-import { BrowserRouter as Router, Routes ,Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import Logo from './pages/Logo'
 import Hero from './pages/Hero'
 import Home from './pages/Home'
+import Welcome from './pages/Welcome'
+import Sponsor from './pages/Sponsors'
 
 function App() {
   return (
     <div className="App">
       <Router>
-        <Logo />
         <Hero />
+        <Home />
         <Routes>
-            <Route exact path="/" element={<Home/>}>
+            <Route exact path="/" element={<Welcome/>}>
           </Route>
         </Routes>
+        <Sponsor />
+        <p style={{width: '958px', margin:'auto', textAlign:'left', paddingLeft:'1%'}}>© Copyright Mallard and Claret 2021. All Rights Reserved</p>
       </Router>
     </div>
   );
