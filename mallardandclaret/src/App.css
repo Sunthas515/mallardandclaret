@@ -47,12 +47,51 @@ body, html {
 }
 
 .Welcome-text {
+  width: 659px;
   margin:auto;
   background:white;
 }
 
+.OutterForm {
+  width: 659px;
+  margin: auto;
+  background:white;
+}
+
+.InnerForm {
+  width: 659px;
+  margin: auto;
+  background:white;
+  display: flex;
+  flex-direction: row;
+}
+
 .Login {
-  width: 30%;
+  width: 958px;
+  margin:auto;
+  background:white;
+  display: flex;
+  flex-direction: row;
+}
+
+.RightButtons {
+  width: 260px;
+  padding-left: 5px;
+  margin:0;
+  background:white;
+  display: flex;
+  flex-direction: column;
+  float: left;
+}
+
+.NavBar {
+  width: 260px;
+  padding-left: 5px;
+  margin:0;
+  background:white;
+  display: flex;
+  flex-direction: column;
+  float: left;
 }
 
 .Sponsors {
