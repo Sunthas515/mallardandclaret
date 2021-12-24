@@ -1,7 +1,7 @@
 import React from 'react';
 import {Button, Input} from 'reactstrap';
 
-export default function Home() {
+export default function Login() {
     return (
         <div className="Login">
             <div className="OutterForm" style={{textAlign:'left', paddingLeft:'1%'}}>

@@ -1,12 +1,9 @@
 import React from 'react';
 import { Nav, NavItem, NavLink } from 'reactstrap';
 
-export default function Home() {
+export default function Members() {
     return (
         <div className="Login">
-            <div className="OutterForm" style={{textAlign:'left', paddingLeft:'1%'}}>
-                
-            </div>
             <div className="NavBar" style={{paddingRight:'1%'}}>
                 <Nav className="mr-auto" navbar>
                     <NavItem href="#">

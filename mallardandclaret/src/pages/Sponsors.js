@@ -5,7 +5,7 @@ import antiquarian from '../resources/Antiquarian_2.jpg'
 import nial from '../resources/Nial_logo_1.jpg'
 import roger from '../resources/Roger_Elton_business_card_(2).jpg'
 
-export default function Home() {
+export default function Sponsors() {
     return (
         <div className="Sponsors">
             <p style={{textAlign:'left', paddingLeft:'1%'}}>Mallard and Claret is proudly sponsored by:</p>

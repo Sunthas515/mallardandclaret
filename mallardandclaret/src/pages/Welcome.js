@@ -1,11 +1,11 @@
 import React from 'react';
 import {Button} from 'reactstrap';
 
-export default function Home() {
+export default function Welcome() {
     return (
         <div className="Welcome">
             <div className="Welcome-text" style={{textAlign:'left', paddingLeft:'1%'}}>
-                <p >Located in Brisbane, the club was formed in 1972 and affiliated with NETAS (New England Trout Acclimatisation Society) in the same year.</p>
+                <p>Located in Brisbane, the club was formed in 1972 and affiliated with NETAS (New England Trout Acclimatisation Society) in the same year.</p>
                 <p>The central aims of the club are to promote the sport of fly fishing and the art of fly tying.</p>
                 <p>Through NETAS the club is responsible for stocking the Deepwater River, on the northern tablelands of NSW, with both brown and rainbow trout.</p>
                 <p>The current membership now stands at about 50.</p>
