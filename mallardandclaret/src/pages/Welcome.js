@@ -24,7 +24,9 @@ export default function Welcome() {
             </div>
             <div className="RightButtons" style={{paddingRight:'1%'}}>
                 <Button color="secondary" href="/login">Login</Button>
-                <Button color="secondary">Contact Us</Button>
+                <Button color="secondary" href="#">Join / Contact Us</Button>
+                <Button color="secondary" href="#">Events</Button>
+                <Button color="secondary" href="#">Gallery</Button>
             </div>
         </div>
     )

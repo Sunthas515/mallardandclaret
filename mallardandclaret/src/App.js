@@ -7,6 +7,7 @@ import Welcome from './pages/Welcome'
 import Sponsor from './pages/Sponsors'
 import Login from './pages/Login'
 import Members from './pages/Members'
+import Huts from './pages/Huts'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Route exact path="/" element={<Welcome/>} />
             <Route exact path="/login" element={<Login/>} />
             <Route exact path="/members" element={<Members/>} />
+            <Route exact path="/huts" element={<Huts/>} />
         </Routes>
         <Sponsor />
         <p style={{width: '958px', margin:'auto', textAlign:'left', paddingLeft:'1%'}}>© Copyright Mallard and Claret 2021. All Rights Reserved</p>

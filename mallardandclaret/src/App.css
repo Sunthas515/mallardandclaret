@@ -72,6 +72,16 @@ body, html {
   background:white;
   display: flex;
   flex-direction: row;
+  text-align: center;
+}
+
+.Huts {
+  width: 958px;
+  margin:auto;
+  background:white;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
 }
 
 .RightButtons {
@@ -98,4 +108,13 @@ body, html {
   width: 958px;
   margin:auto;
   background:#e9edeb;
+}
+
+.memberCard {
+  width: 958px;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  float: center;
 }
