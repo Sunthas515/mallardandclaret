@@ -212,7 +212,8 @@ body, html {
   }
 
   .Hut {
-    
+    width: 200px;
+    float: left;
   }
 
   .RightButtons {
