@@ -8,9 +8,9 @@ import Deepwater from '../resources/The_Hut_Deepwater.jpg';
 
 export default function Huts() {
     return (
-        <div className="Huts">
+        <div>
             <Members />
-            <br></br>
+            <div className="Huts">
             <Card className="Hut">
                 <CardTitle>Ebor Hut</CardTitle>
                 <CardBody>
@@ -41,7 +41,7 @@ export default function Huts() {
                     <CardLink href="href=mailto:mallardandclaret@gmail.com?subject=Deepwater Booking&body=Details here">Book Hut</CardLink>
                 </CardBody>
             </Card>
-            <br></br>
+            </div>
         </div>
     )
 }
