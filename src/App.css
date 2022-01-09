@@ -11,134 +11,111 @@ body, html {
   height: 100%;
 }
 
-@media (max-width: 768px) {
-  /* CSS in here for mobile only */
-  .hero {
-    z-index: 5;
-  }
-
-  .hero-image {
-    border: 4px solid #993366;
-    border-radius: 10px;
-    width: 400px;
-  }
-
-  /* The logo image */
-  .logo-image {
-    position: relative;
-    z-index: 10;
-    scale: 75%;
-  }
+/* The hero image */
+.hero {
+  z-index: 5;
 }
 
-@media (min-width: 769px) {
-  /* CSS in here for desktop only */
-  /* The hero image */
-  .hero {
-    z-index: 5;
-  }
+.hero-image {
+  border: 4px solid #993366;
+  border-radius: 10px;
+  width: 958px;
+}
 
-  .hero-image {
-    border: 4px solid #993366;
-    border-radius: 10px;
-    width: 958px;
-  }
+/* The logo image */
+.logo-image {
+  position: relative;
+  top: 70px;
+  left: -400px;
+  z-index: 10;
+  width: 150px;
+  height: 150px;
+}
 
-  /* The logo image */
-  .logo-image {
-    position: relative;
-    top: 70px;
-    left: -400px;
-    z-index: 10;
-    width: 150px;
-    height: 150px;
-  }
+.Home {
+  width: 958px;
+  height: 79px;
+  margin:auto;
+  background:white;
+}
 
-  .Home {
-    width: 958px;
-    height: 79px;
-    margin:auto;
-    background:white;
-  }
+.Welcome {
+  width: 958px;
+  margin:auto;
+  background:white;
+  display: flex;
+  flex-direction: row;
+}
 
-  .Welcome {
-    width: 958px;
-    margin:auto;
-    background:white;
-    display: flex;
-    flex-direction: row;
-  }
+.Welcome-text {
+  width: 659px;
+  margin:auto;
+  background:white;
+}
 
-  .Welcome-text {
-    width: 659px;
-    margin:auto;
-    background:white;
-  }
+.OutterForm {
+  width: 659px;
+  margin: auto;
+  background:white;
+}
 
-  .OutterForm {
-    width: 659px;
-    margin: auto;
-    background:white;
-  }
+.InnerForm {
+  width: 659px;
+  margin: auto;
+  background:white;
+  display: flex;
+  flex-direction: row;
+}
 
-  .InnerForm {
-    width: 659px;
-    margin: auto;
-    background:white;
-    display: flex;
-    flex-direction: row;
-  }
+.Login {
+  width: 958px;
+  margin:auto;
+  background:white;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
 
-  .Login {
-    width: 958px;
-    margin:auto;
-    background:white;
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-  }
+.Huts {
+  width: 958px;
+  margin:auto;
+  background:white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
 
-  .Huts {
-    width: 958px;
-    margin:auto;
-    background:white;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-  }
+.RightButtons {
+  width: 260px;
+  padding-left: 5px;
+  margin:0;
+  background:white;
+  display: flex;
+  flex-direction: column;
+  float: left;
+}
 
-  .RightButtons {
-    width: 260px;
-    padding-left: 5px;
-    margin:0;
-    background:white;
-    display: flex;
-    flex-direction: column;
-    float: left;
-  }
+.NavBar {
+  width: 260px;
+  padding-left: 5px;
+  margin:0;
+  background:white;
+  display: flex;
+  flex-direction: column;
+  float: left;
+}
 
-  .NavBar {
-    width: 260px;
-    padding-left: 5px;
-    margin:0;
-    background:white;
-    display: flex;
-    flex-direction: column;
-    float: left;
-  }
+.Sponsors {
+  width: 958px;
+  margin:auto;
+  background:#e9edeb;
+}
 
-  .Sponsors {
-    width: 958px;
-    margin:auto;
-    background:#e9edeb;
-  }
-
-  .memberCard {
-    width: 958px;
-    margin: auto;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    float: center;
-  }
+.memberCard {
+  width: 958px;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  float: center;
 }
