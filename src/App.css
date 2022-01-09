@@ -15,7 +15,6 @@ body, html {
   /* CSS in here for mobile only */
   .hero {
     z-index: 5;
-    height: 300px;
   }
 
   .hero-image {
