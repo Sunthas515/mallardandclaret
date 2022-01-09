@@ -14,11 +14,11 @@ export default function Hero() {
       <div className="hero">
         <img className="logo-image" src={logo} alt="logo" style={{width: '150px'}} />
         <HeroCarousel height="350px">
-          <img src={image1} alt="hero1" className="hero-image" style={{height: '340px'}} />
-          <img src={image2} alt="hero2" className="hero-image" style={{height: '340px'}} />
-          <img src={image3} alt="hero3" className="hero-image" style={{height: '340px'}} />
-          <img src={image4} alt="hero4" className="hero-image" style={{height: '340px'}} />
-          <img src={image5} alt="hero5" className="hero-image" style={{height: '340px'}} />
+          <img src={image1} alt="hero1" className="hero-image" />
+          <img src={image2} alt="hero2" className="hero-image" />
+          <img src={image3} alt="hero3" className="hero-image" />
+          <img src={image4} alt="hero4" className="hero-image" />
+          <img src={image5} alt="hero5" className="hero-image" />
         </HeroCarousel>
       </div>
   )
