@@ -22,7 +22,7 @@ function App() {
           <Route exact path="/huts" element={<Huts/>} />
         </Routes>
         <Sponsor />
-        <p style={{width: '958px', margin:'auto', textAlign:'left', paddingLeft:'1%'}}>© Copyright Mallard and Claret 2021. All Rights Reserved</p>
+        <p className='copyright'>© Copyright Mallard and Claret 2021. All Rights Reserved</p>
       </Router>
     </div>
   );

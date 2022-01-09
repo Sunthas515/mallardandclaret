@@ -118,6 +118,13 @@ body, html {
     display: flex;
   }
 
+  .copyright {
+    max-width: 100%;
+    margin: auto;
+    text-align:'left';
+    padding-left: 1%;
+  }
+
   .memberCard {
     max-width: 100%;
     margin: auto;
@@ -229,6 +236,13 @@ body, html {
     width: 958px;
     margin:auto;
     background:#e9edeb;
+  }
+
+  .copyright {
+    width: 958px;
+    margin: auto;
+    text-align:'left';
+    padding-left: 1%;
   }
 
   .memberCard {
