@@ -131,7 +131,7 @@ body, html {
   /* The hero image */
   .hero {
     z-index: 5;
-    height: 450px;
+    height: 500px;
   }
 
   .hero-image {
