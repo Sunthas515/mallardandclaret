@@ -20,17 +20,16 @@ body, html {
   .hero-image {
     border: 4px solid #993366;
     border-radius: 10px;
-    height: '340px';
+    height: 179px;
   }
 
   /* The logo image */
   .logo-image {
     position: relative;
-    top: 70px;
-    left: -400px;
+    top: 35px;
     z-index: 10;
-    width: 150px;
-    height: 150px;
+    width: 75px;
+    height: 75px;
   }
 }
 
@@ -44,6 +43,7 @@ body, html {
   .hero-image {
     border: 4px solid #993366;
     border-radius: 10px;
+    height: 340px;
   }
 
   /* The logo image */
