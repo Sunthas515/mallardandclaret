@@ -93,6 +93,8 @@ body, html {
     padding-left: 5px;
     margin:0;
     background:white;
+    display: flex;
+    flex-direction: column;
     float: left;
   }
 
@@ -202,8 +204,6 @@ body, html {
     margin:auto;
     background:white;
     display: flex;
-    flex-direction: column;
-    float: left;
   }
 
   .Hut {
