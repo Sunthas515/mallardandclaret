@@ -115,6 +115,7 @@ body, html {
     max-width: 100%;
     margin:auto;
     background:#e9edeb;
+    display: flex;
   }
 
   .memberCard {
