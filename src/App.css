@@ -27,7 +27,7 @@ body, html {
   /* The logo image */
   .logo-image {
     position: relative;
-    scale: 20%;
+    width: 10px;
     z-index: 10;
   }
 
