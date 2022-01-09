@@ -1,7 +1,9 @@
 .App {
-  text-align: center;
+  text-align: left;
   background: #e0e0e0;
-  max-width: 100%;
+  width: 958px;
+  max-width: fit-content;
+  margin: auto;
 }
 
 .App-link {
@@ -10,6 +12,7 @@
 
 body, html {
   height: 100%;
+  display: flex;
 }
 
 /* The hero image */
