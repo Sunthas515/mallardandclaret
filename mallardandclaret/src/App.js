@@ -16,10 +16,10 @@ function App() {
         <Hero />
         <Home />
         <Routes>
-            <Route exact path="/" element={<Welcome/>} />
-            <Route exact path="/login" element={<Login/>} />
-            <Route exact path="/members" element={<Members/>} />
-            <Route exact path="/huts" element={<Huts/>} />
+          <Route exact path="/" element={<Welcome/>} />
+          <Route exact path="/login" element={<Login/>} />
+          <Route exact path="/members" element={<Members/>} />
+          <Route exact path="/huts" element={<Huts/>} />
         </Routes>
         <Sponsor />
         <p style={{width: '958px', margin:'auto', textAlign:'left', paddingLeft:'1%'}}>© Copyright Mallard and Claret 2021. All Rights Reserved</p>
