@@ -28,7 +28,6 @@ body, html {
   .logo-image {
     position: relative;
     display: flex;
-    top: 40px;
     max-width: 20%;
     height: auto;
     z-index: 10;
