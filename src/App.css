@@ -23,12 +23,17 @@ body, html {
 
 /* The logo image */
 .logo-image {
-  position: relative;
-  top: 70px;
-  left: -400px;
-  z-index: 10;
   width: 150px;
+  aspect-ratio: auto 150 / 150;
   height: 150px;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
 }
 
 .Home {
