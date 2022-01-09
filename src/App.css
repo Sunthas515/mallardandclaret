@@ -206,14 +206,11 @@ body, html {
     width: 958px;
     margin:auto;
     background:white;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+    display: inline;
   }
 
   .Hut {
-    width: 25%;
-    display: inline;
+    width: 50%;
   }
 
   .RightButtons {
