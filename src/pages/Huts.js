@@ -11,7 +11,7 @@ export default function Huts() {
         <div className="Huts">
             <Members />
             <br></br>
-            <Card>
+            <Card className="Hut">
                 <CardTitle>Ebor Hut</CardTitle>
                 <CardBody>
                     <CardImg src={Ebor} alt="Ebor Hut"/>
@@ -26,7 +26,7 @@ export default function Huts() {
                     <CardLink href="href=mailto:mallardandclaret@gmail.com?subject=Ebor Booking&body=Details here">Book Hut</CardLink>
                 </CardBody>
             </Card>
-            <Card>
+            <Card className="Hut">
                 <CardTitle>Deepwater Hut</CardTitle>
                 <CardBody>
                     <CardImg src={Deepwater} alt="Deepwater Hut"/>
