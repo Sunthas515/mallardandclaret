@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, CardBody, CardImg, CardLink, CardText, CardTitle, Col, Row } from 'reactstrap';
+import { Card, CardBody, CardImg, CardLink, CardText, CardTitle } from 'reactstrap';
 
 import Members from './Members';
 import Ebor from '../resources/Ebor_Hut.jpg';
