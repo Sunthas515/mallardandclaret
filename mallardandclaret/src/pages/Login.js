@@ -22,13 +22,13 @@ export default function Login() {
                 </div>
                 <div className="InnerForm" style={{paddingTop:'1%'}}>
                     <Button href="/members">Login</Button>
-                    <Button>Reset</Button>
+                    <Button href="mailto:mallardandclaret@gmail.com?subject=Member reset password&body=Member details here">Reset</Button>
                 </div>
-                <a href="#1">Forgotten your details?</a>
+                <a href="mailto:mallardandclaret@gmail.com?subject=Member forget details&body=Member details here">Forgotten your details?</a>
             </div>
             <div className="RightButtons" style={{paddingRight:'1%'}}>
                 <Button color="secondary" href="/login">Login</Button>
-                <Button color="secondary">Contact Us</Button>
+                <Button color="secondary" href="mailto:mallardandclaret@gmail.com?subject=Member Signup&body=Member details here">Contact Us</Button>
             </div>
         </div>
     )
