@@ -13,7 +13,7 @@ export default function Hero() {
   return (
       <div className="hero">
         <img className="logo-image" src={logo} alt="logo" style={{width: '150px'}} />
-        <HeroCarousel height="350px">
+        <HeroCarousel height="250px">
           <img src={image1} alt="hero1" className="hero-image" />
           <img src={image2} alt="hero2" className="hero-image" />
           <img src={image3} alt="hero3" className="hero-image" />
