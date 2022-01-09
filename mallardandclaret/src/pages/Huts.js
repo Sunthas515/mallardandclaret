@@ -29,7 +29,7 @@ export default function Huts() {
 
                                 Please report any damage or problems with the hut to Norm Gibson (07 3207 3610, 0427 073 610)</CardText>
                             <CardLink href="#">See available dates</CardLink>
-                            <CardLink href="#">Book Hut</CardLink>
+                            <CardLink href="href=mailto:mallardandclaret@gmail.com?subject=Ebor Booking&body=Details here">Book Hut</CardLink>
                         </CardBody>
                     </Card>
                 </Col>
@@ -46,7 +46,7 @@ export default function Huts() {
 
                                 Please report any damage or problems with the hut to Norm Gibson (07 3207 3610, 0427 073 610)</CardText>
                             <CardLink href="#">See available dates</CardLink>
-                            <CardLink href="#">Book Hut</CardLink>
+                            <CardLink href="href=mailto:mallardandclaret@gmail.com?subject=Deepwater Booking&body=Details here">Book Hut</CardLink>
                         </CardBody>
                     </Card>
                 </Col>
