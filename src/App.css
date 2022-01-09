@@ -10,7 +10,6 @@
 body, html {
   height: 100%;
   overflow-x: hidden;
-  overflow-y: hidden;
 }
 
 @media (max-width: 768px) {
