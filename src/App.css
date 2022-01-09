@@ -22,8 +22,7 @@ body, html {
     border: 4px solid #993366;
     border-radius: 10px;
     max-width: 100%;
-    height: 150px;
-    top: -100px;
+    height: 100px;
   }
 
   /* The logo image */
