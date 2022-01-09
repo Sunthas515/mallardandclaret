@@ -15,14 +15,14 @@ body, html {
   /* CSS in here for mobile only */
   .hero {
     z-index: 5;
-    height: 200px;
+    height: 250px;
   }
 
   .hero-image {
     border: 4px solid #993366;
     border-radius: 10px;
     max-width: 100%;
-    height: 100px;
+    height: 150px;
   }
 
   /* The logo image */
