@@ -11,6 +11,11 @@ body, html {
   height: 100%;
 }
 
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+
 /* The hero image */
 .hero {
   z-index: 5;
@@ -23,12 +28,12 @@ body, html {
 
 /* The logo image */
 .logo-image {
-  padding: 0;
-  margin: 0;
-  width: 190px;
-  float: left;
-  position: absolute;
-  z-index: 1000;
+  position: relative;
+  top: 70px;
+  left: -400px;
+  z-index: 10;
+  width: 150px;
+  height: 150px;
 }
 
 .Home {
