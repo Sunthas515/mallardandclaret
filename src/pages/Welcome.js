@@ -25,8 +25,8 @@ export default function Welcome() {
             <div className="RightButtons" style={{paddingRight:'1%'}}>
                 <Button color="secondary" href="/login">Login</Button>
                 <Button color="secondary" href="mailto:mallardandclaret@gmail.com?subject=Member Signup&body=Member details here">Join / Contact Us</Button>
-                <Button color="secondary" href="#">Events</Button>
-                <Button color="secondary" href="#">Gallery</Button>
+                <Button color="secondary" href="https://calendar.google.com/calendar/u/0?cid=OGFhMTc5ZW9pMmhiNXJvZDU4czYxb2JiMzBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ">Events</Button>
+                <Button color="secondary" href="https://drive.google.com/drive/folders/1FSfPRke8mFjjZZB0DPQY40aKr3LP2Ac5?usp=sharing">Gallery</Button>
             </div>
         </div>
     )
