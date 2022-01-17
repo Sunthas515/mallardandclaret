@@ -28,8 +28,8 @@ export default function Huts() {
                                 Dates shown are: Date In (the first night) and Date Out (the date of the day you leave). Please include the number of nights you are booking and number of people (adults and children) attending.
 
                                 Please report any damage or problems with the hut to Norm Gibson (07 3207 3610, 0427 073 610)</CardText>
-                            <CardLink href="#">See available dates</CardLink>
-                            <CardLink href="href=mailto:mallardandclaret@gmail.com?subject=Ebor Booking&body=Details here">Book Hut</CardLink>
+                            <CardLink href="https://calendar.google.com/calendar/u/0?cid=bTNubDBzMHAxcHU3MjJzdTJra2NhZDJvMjRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ">See available dates</CardLink>
+                            <CardLink href="mailto:mallardandclaret@gmail.com?subject=Ebor Booking&body=Details here">Book Hut</CardLink>
                         </CardBody>
                     </Card>
                 </Col>
@@ -45,8 +45,8 @@ export default function Huts() {
                                 Dates shown are: Date In (the first night) and Date Out (the date of the day you leave). Please include the number of nights you are booking and number of people (adults and children) attending.
 
                                 Please report any damage or problems with the hut to Norm Gibson (07 3207 3610, 0427 073 610)</CardText>
-                            <CardLink href="#">See available dates</CardLink>
-                            <CardLink href="href=mailto:mallardandclaret@gmail.com?subject=Deepwater Booking&body=Details here">Book Hut</CardLink>
+                            <CardLink href="https://calendar.google.com/calendar/u/0?cid=bW5jaGtxam5pY2hlNGxiNjZtc2MzNWM2YjhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ">See available dates</CardLink>
+                            <CardLink href="mailto:mallardandclaret@gmail.com?subject=Deepwater Booking&body=Details here">Book Hut</CardLink>
                         </CardBody>
                     </Card>
                 </Col>

@@ -11,9 +11,9 @@ export default function Members() {
                     <Button className="logout" href="/" style={{width:"250px", float:"center"}}>Logout</Button>
                 </CardBody>
                 <CardBody>
-                    <CardLink href="#">Google Drive</CardLink>
+                    <CardLink href="https://drive.google.com/drive/folders/1_LRFIyYGOQyyr3dRlwrb_tmqohZmuWje?usp=sharing">Google Drive</CardLink>
                     <CardLink href="/huts">Hut Bookings</CardLink>
-                    <CardLink href="#">Members Calendar</CardLink>
+                    <CardLink href="https://calendar.google.com/calendar/u/0?cid=aXNlMTRvMG4yYmsycGdnMWRjb2pocWNtaWdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ">Members Calendar</CardLink>
                 </CardBody>
             </Card>
         </div>
