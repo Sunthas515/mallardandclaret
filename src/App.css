@@ -38,7 +38,7 @@ body, html {
 
   .Home {
     max-width: 100%;
-    height: 79px;
+    height: 100px;
     margin:auto;
     background:white;
     display: flex;
@@ -160,7 +160,7 @@ body, html {
 
   .Home {
     width: 958px;
-    height: 79px;
+    height: 150px;
     margin:auto;
     background:white;
   }
