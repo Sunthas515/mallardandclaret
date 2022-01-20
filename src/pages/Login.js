@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import {Button, Input, Label} from 'reactstrap';
+
 export default function Login() {
     const [username, setUsername] = useState();
     const [password, setPassword] = useState();
@@ -24,9 +25,10 @@ export default function Login() {
 
 
     function getUser() {
-        return fetch('https://110.232.143.7:3306/wb_users', {
+        return fetch('https://mallardandclaret.org/mallarda_db/wb_users', {
             method: "POST",
-            headers: { accept: "application/json", "Content-Type": "Application/json"},
+            mode: 'no-cors',
+            headers: { accept: "application/json", "Content-Type": "Application/json" },
             body: JSON.stringify({ username: username, password: password})
         })
         .then((res) => res.json())
