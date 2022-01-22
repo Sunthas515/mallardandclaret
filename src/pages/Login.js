@@ -25,9 +25,8 @@ export default function Login() {
 
 
     function getUser() {
-        return fetch('https://mallardandclaret.org/mallarda_db/wb_users', {
+        return fetch('http://localhost:5000/user/login', {
             method: "POST",
-            mode: 'no-cors',
             headers: { accept: "application/json", "Content-Type": "Application/json" },
             body: JSON.stringify({ username: username, password: password})
         })
