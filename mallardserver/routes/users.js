@@ -32,7 +32,11 @@ router.post("/login", function (req, res, next) {
 
       // Compare password hashes
       const user = users[0]
-      return bcrypt.compare(password, user.password)
+      console.log(password)
+      console.log(user.password)
+      var result = bcrypt.compareSync(password, user.password)
+      console.log(result)
+      return result
     })
     .then((match) => {
       if (!match) {
