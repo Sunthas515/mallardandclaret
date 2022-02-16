@@ -25,7 +25,7 @@ export default function Login() {
 
 
     function getUser() {
-        return fetch('https://localhost:5000/user/login', {
+        return fetch('http://localhost:5000/user/login', {
             method: "POST",
             headers: { accept: "application/json", "Content-Type": "Application/json" },
             body: JSON.stringify({ username: username, password: password})
