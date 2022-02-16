@@ -25,7 +25,7 @@ export default function Login() {
 
 
     function getUser() {
-        return fetch('http://localhost:5000/user/login', {
+        return fetch('https://localhost:5000/user/login', {
             method: "POST",
             headers: { accept: "application/json", "Content-Type": "Application/json" },
             body: JSON.stringify({ username: username, password: password})
@@ -67,7 +67,7 @@ export default function Login() {
                     <Button href="mailto:mallardandclaret@gmail.com?subject=Member reset password&body=Member details here">Reset</Button>
                     <Label>{error}</Label>
                 </div>
-                <a href="mailto:mallardandclaret@gmail.com?subject=Member forget details&body=Member details here">Forgotten your details?</a>
+                <a href="/forgot">Forgotten your details?</a>
             </div>
             <div className="RightButtons" style={{paddingRight:'1%'}}>
                 <Button color="secondary" href="/login">Login</Button>
