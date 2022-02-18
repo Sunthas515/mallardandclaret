@@ -8,8 +8,10 @@ export default function Forgot() {
     const [error, setError] = useState();
 
     function reset() {
-        const url = `http://localhost:5000/user/register`
+        console.log("Button Clicked");
+        const url = `https://server.mallardandclaret.org/user/register`
         return fetch(url, {
+            mode: "no-cors",
             method: "POST",
             headers: { accept: "application/json", "Content-Type": "Application/json" },
             body: JSON.stringify({ username: username, password: password })
@@ -19,7 +21,6 @@ export default function Forgot() {
                 if (err.error) { setError(err.message); throw new Error(err.message) }
                 else {
                     setError("Login successful")
-                    localStorage.token = err.token
                 }
             })
             .catch(err => {
@@ -27,6 +28,7 @@ export default function Forgot() {
             })
 
     }
+
 
     return (
         <div className="Login">

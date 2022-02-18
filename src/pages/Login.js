@@ -25,7 +25,8 @@ export default function Login() {
 
 
     function getUser() {
-        return fetch('http://localhost:5000/user/login', {
+        return fetch('https://server.mallardandclaret.org/user/login', {
+            mode: "no-cors",
             method: "POST",
             headers: { accept: "application/json", "Content-Type": "Application/json" },
             body: JSON.stringify({ username: username, password: password})
@@ -37,6 +38,7 @@ export default function Login() {
                 IsRememberMe()
                 setError("Login successful")
                 localStorage.token = err.token
+                window.location = "/members/"
             }
         })
         .catch(err => {
@@ -64,14 +66,13 @@ export default function Login() {
                 </div>
                 <div className="InnerForm" style={{paddingTop:'1%'}}>
                     <Button onClick={getUser}>Login</Button>
-                    <Button href="mailto:mallardandclaret@gmail.com?subject=Member reset password&body=Member details here">Reset</Button>
                     <Label>{error}</Label>
                 </div>
                 <a href="/forgot">Forgotten your details?</a>
             </div>
             <div className="RightButtons" style={{paddingRight:'1%'}}>
                 <Button color="secondary" href="/login">Login</Button>
-                <Button color="secondary" href="mailto:mallardandclaret@gmail.com?subject=Member Signup&body=Member details here">Contact Us</Button>
+                <Button color="secondary" href="mailto:mallardandclaret@gmail.com">Contact Us</Button>
             </div>
         </div>
     )

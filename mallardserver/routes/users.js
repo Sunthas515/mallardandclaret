@@ -9,6 +9,39 @@ router.get('/', function (req, res) {
   res.send('respond with a resource');
 });
 
+//POST change password
+router.post('/register', function (req, res, next) {
+  const username = req.body.username
+  var password = req.body.password
+
+  //Verify body
+  if (!username || !password) {
+    res.status(400).send({ "Error": true, "message": "Request body incomplete - username and password needed" })
+    return
+  }
+  const queryUsers = req.db.from("wb_users").select("*").where("username", "=", username)
+  queryUsers
+    .then((users) => {
+      if (users.length = 0) {
+        res.status(409).send({
+          error: true,
+          message: "User does not exist!"
+        })
+        return
+      }
+
+      //Insert user into DB
+      const saltRounds = 10
+      const hash = bcrypt.hashSync(password, saltRounds)
+      password = hash
+      return req.db.from("wb_users").where("username", "=", username).update({ password })
+    })
+    .then(() => {
+      res.status(201).send({ "success": true, "message": "User created" })
+    })
+})
+
+
 
 // POST login user
 router.post("/login", function (req, res, next) {
