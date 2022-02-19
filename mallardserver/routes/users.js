@@ -22,7 +22,7 @@ router.post('/register', function (req, res, next) {
   const queryUsers = req.db.from("wb_users").select("*").where("username", "=", username)
   queryUsers
     .then((users) => {
-      if (users.length = 0) {
+      if (users.length < 1) {
         res.status(409).send({
           error: true,
           message: "User does not exist!"
