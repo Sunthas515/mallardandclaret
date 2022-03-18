@@ -25,8 +25,7 @@ export default function Login() {
 
 
     function getUser() {
-        return fetch('https://server.mallardandclaret.org/user/login', {
-            mode: "no-cors",
+        return fetch('http://server.mallardandclaret.org/user/login', {
             method: "POST",
             headers: { accept: "application/json", "Content-Type": "Application/json" },
             body: JSON.stringify({ username: username, password: password})

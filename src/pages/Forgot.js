@@ -9,9 +9,8 @@ export default function Forgot() {
 
     function reset() {
         console.log("Button Clicked");
-        const url = `https://server.mallardandclaret.org/user/register`
+        const url = 'http://server.mallardandclaret.org/user/register'
         return fetch(url, {
-            mode: "no-cors",
             method: "POST",
             headers: { accept: "application/json", "Content-Type": "Application/json" },
             body: JSON.stringify({ username: username, password: password })

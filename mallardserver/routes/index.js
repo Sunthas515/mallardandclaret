@@ -6,4 +6,9 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
+const cors = require('cors');
+app.use(cors({
+    origin: 'http://dev.mallardandclaret.org'
+}));
+
 module.exports = router;
